@@ -3,7 +3,7 @@ function validar(){
 
 	var txtCPF = document.getElementById("txtCpf").value;
 
-	fetch(URL+txtCPF)
+	fetch(URL+txtCPF+)
 	   .then(res=>res.json())
 	   .then(res=>verifica(res))
 }
